@@ -1,0 +1,2005 @@
+{
+  "nodes": [
+    {
+      "id": "github_skills_job_scraper_scripts_scrape_linkedin_jobs_py",
+      "label": "scrape-linkedin-jobs.py",
+      "file_type": "code",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scrape_linkedin_jobs_check_dependencies",
+      "label": "check_dependencies()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L35"
+    },
+    {
+      "id": "scrape_linkedin_jobs_find_repo_root",
+      "label": "find_repo_root()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L69"
+    },
+    {
+      "id": "scrape_linkedin_jobs_load_career_profile",
+      "label": "load_career_profile()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L81"
+    },
+    {
+      "id": "scrape_linkedin_jobs_scrape_linkedin_jobs",
+      "label": "scrape_linkedin_jobs()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L147"
+    },
+    {
+      "id": "scrape_linkedin_jobs_calculate_fit",
+      "label": "calculate_fit()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L234"
+    },
+    {
+      "id": "scrape_linkedin_jobs_save_to_excel",
+      "label": "save_to_excel()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L278"
+    },
+    {
+      "id": "scrape_linkedin_jobs_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L414"
+    },
+    {
+      "id": "scrape_linkedin_jobs_rationale_70",
+      "label": "Walk up from script location to find repo root (contains .github/).",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L70"
+    },
+    {
+      "id": "scrape_linkedin_jobs_rationale_82",
+      "label": "Load full career profile from .github/instructions/career-profile-{user}.instruc",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L82"
+    },
+    {
+      "id": "scrape_linkedin_jobs_rationale_148",
+      "label": "Scrape public LinkedIn guest job search results.     No login or API key requir",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L148"
+    },
+    {
+      "id": "scrape_linkedin_jobs_rationale_235",
+      "label": "Rate job title fit against target roles (0-100%).     Returns (score: int, best",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L235"
+    },
+    {
+      "id": "scrape_linkedin_jobs_rationale_279",
+      "label": "Write scraped jobs to a professionally styled .xlsx file.",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L279"
+    },
+    {
+      "id": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "label": "batch-job-reader.py",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "batch_job_reader_check_dependencies",
+      "label": "check_dependencies()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L41"
+    },
+    {
+      "id": "batch_job_reader_find_repo_root",
+      "label": "find_repo_root()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L55"
+    },
+    {
+      "id": "batch_job_reader_load_career_profile",
+      "label": "load_career_profile()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L67"
+    },
+    {
+      "id": "batch_job_reader_sanitize_company",
+      "label": "sanitize_company()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L113"
+    },
+    {
+      "id": "batch_job_reader_shorten_title",
+      "label": "shorten_title()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L127"
+    },
+    {
+      "id": "batch_job_reader_find_latest_excel",
+      "label": "find_latest_excel()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L142"
+    },
+    {
+      "id": "batch_job_reader_read_excel_jobs",
+      "label": "read_excel_jobs()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L150"
+    },
+    {
+      "id": "batch_job_reader_resolve_output_names",
+      "label": "resolve_output_names()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L246"
+    },
+    {
+      "id": "batch_job_reader_check_existing_resumes",
+      "label": "check_existing_resumes()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L307"
+    },
+    {
+      "id": "batch_job_reader_load_manifest_completed",
+      "label": "load_manifest_completed()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L328"
+    },
+    {
+      "id": "batch_job_reader_load_jd_files",
+      "label": "load_jd_files()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L347"
+    },
+    {
+      "id": "batch_job_reader_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L387"
+    },
+    {
+      "id": "batch_job_reader_rationale_56",
+      "label": "Walk up from script location to find the repo root (contains .github/).",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L56"
+    },
+    {
+      "id": "batch_job_reader_rationale_68",
+      "label": "Load full_name, location, and target_roles from career-profile-{user}.instructio",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L68"
+    },
+    {
+      "id": "batch_job_reader_rationale_114",
+      "label": "Normalize a company name to a folder-safe alphanumeric string.     Strips commo",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L114"
+    },
+    {
+      "id": "batch_job_reader_rationale_128",
+      "label": "Shorten a job title to a compact CamelCase string for use in folder/file names.",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L128"
+    },
+    {
+      "id": "batch_job_reader_rationale_143",
+      "label": "Return the most recently modified .xlsx in jobsearch_dir, or None.",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L143"
+    },
+    {
+      "id": "batch_job_reader_rationale_151",
+      "label": "Parse a LinkedIn job scraper Excel file and return filtered job list.      Exc",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L151"
+    },
+    {
+      "id": "batch_job_reader_rationale_247",
+      "label": "Compute folder_name, output_folder, output_md, output_docx, context_file for eac",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L247"
+    },
+    {
+      "id": "batch_job_reader_rationale_308",
+      "label": "Mark a job as skipped if its output Resumes subfolder already contains a .docx.",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L308"
+    },
+    {
+      "id": "batch_job_reader_rationale_329",
+      "label": "Read a previous manifest JSON and return a set of folder_names with status=compl",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L329"
+    },
+    {
+      "id": "batch_job_reader_rationale_348",
+      "label": "Check {User}/JobSearch/jds/ for pre-saved JD text files and load them.      Fi",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L348"
+    },
+    {
+      "id": "github_skills_resume_tailor_scripts_extract_resume_py",
+      "label": "extract-resume.py",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\extract-resume.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "extract_resume_check_dependency",
+      "label": "check_dependency()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\extract-resume.py",
+      "source_location": "L20"
+    },
+    {
+      "id": "extract_resume_extract",
+      "label": "extract()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\extract-resume.py",
+      "source_location": "L29"
+    },
+    {
+      "id": "extract_resume_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\extract-resume.py",
+      "source_location": "L36"
+    },
+    {
+      "id": "github_skills_resume_tailor_scripts_log_application_py",
+      "label": "log-application.py",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "log_application_check_dependencies",
+      "label": "check_dependencies()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L31"
+    },
+    {
+      "id": "log_application_create_workbook",
+      "label": "create_workbook()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L48"
+    },
+    {
+      "id": "log_application_append_row",
+      "label": "append_row()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L84"
+    },
+    {
+      "id": "log_application_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L133"
+    },
+    {
+      "id": "log_application_rationale_49",
+      "label": "Create a new applied_jobs.xlsx with a styled navy header row.",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L49"
+    },
+    {
+      "id": "log_application_rationale_85",
+      "label": "Append a single data row to an existing applied_jobs.xlsx.",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L85"
+    },
+    {
+      "id": "github_skills_resume_tailor_scripts_md_to_docx_py",
+      "label": "md-to-docx.py",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "md_to_docx_check_dependency",
+      "label": "check_dependency()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L21"
+    },
+    {
+      "id": "md_to_docx_strip_markdown_inline",
+      "label": "strip_markdown_inline()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L29"
+    },
+    {
+      "id": "md_to_docx_extract_links",
+      "label": "extract_links()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L37"
+    },
+    {
+      "id": "md_to_docx_extract_bold_pairs",
+      "label": "extract_bold_pairs()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L42"
+    },
+    {
+      "id": "md_to_docx_add_hyperlink",
+      "label": "add_hyperlink()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L54"
+    },
+    {
+      "id": "md_to_docx_detect_author_from_md",
+      "label": "detect_author_from_md()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L99"
+    },
+    {
+      "id": "md_to_docx_build_docx",
+      "label": "build_docx()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L109"
+    },
+    {
+      "id": "md_to_docx_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L396"
+    },
+    {
+      "id": "md_to_docx_rationale_30",
+      "label": "Strip inline markdown, keep plain text (used for non-hyperlink contexts).",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L30"
+    },
+    {
+      "id": "md_to_docx_rationale_38",
+      "label": "Return list of (display_text, url) tuples found in markdown link syntax.",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L38"
+    },
+    {
+      "id": "md_to_docx_rationale_43",
+      "label": "For a skills line like '**Category:** skill1, skill2'     returns ('Category:',",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L43"
+    },
+    {
+      "id": "md_to_docx_rationale_55",
+      "label": "Insert a proper clickable hyperlink run into a paragraph.",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L55"
+    },
+    {
+      "id": "md_to_docx_rationale_100",
+      "label": "Extract the H1 name line as author fallback.",
+      "file_type": "rationale",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L100"
+    },
+    {
+      "id": "job_scraper_skill",
+      "label": "Job Scraper Skill",
+      "type": "skill",
+      "source_file": ".github/skills/job-scraper/SKILL.md",
+      "description": "Orchestrates scraping of LinkedIn public job listings and produces a timestamped Excel report with fit ratings. Auto-reads keywords and location from a user career profile."
+    },
+    {
+      "id": "linkedin_guest_api",
+      "label": "LinkedIn Guest Jobs API",
+      "type": "tool",
+      "source_file": ".github/skills/job-scraper/SKILL.md",
+      "description": "LinkedIn's unauthenticated public job search endpoint used to paginate and retrieve job postings without login credentials."
+    },
+    {
+      "id": "career_profile",
+      "label": "Career Profile",
+      "type": "data",
+      "source_file": ".github/skills/job-scraper/SKILL.md",
+      "description": "Per-user instruction file (.github/instructions/career-profile-{name}.instructions.md) containing contact info, target roles, and target industries used to auto-configure scraper and tailor resumes."
+    },
+    {
+      "id": "target_roles",
+      "label": "Target Roles",
+      "type": "data",
+      "source_file": ".github/skills/job-scraper/SKILL.md",
+      "description": "List of role titles extracted from the career profile, used both as search keywords for the scraper and as the basis for fit rating calculation."
+    },
+    {
+      "id": "fit_rating_calculator",
+      "label": "Fit Rating Calculator",
+      "type": "process",
+      "source_file": ".github/skills/job-scraper/SKILL.md",
+      "description": "Compares scraped job titles against the user's target roles using exact phrase, Jaccard overlap, and keyword coverage to assign a 0-100% fit percentage."
+    },
+    {
+      "id": "excel_report",
+      "label": "Excel Job Report",
+      "type": "data",
+      "source_file": ".github/skills/job-scraper/SKILL.md",
+      "description": "Timestamped .xlsx output containing company, job title, location, clickable job link, fit %, and best matching role, with colour-coded rows and a summary sheet."
+    },
+    {
+      "id": "job_listing",
+      "label": "Job Listing",
+      "type": "data",
+      "source_file": ".github/skills/job-scraper/SKILL.md",
+      "description": "A single scraped job entry containing company name, title, location, and link, deduplicated across multi-keyword runs by URL."
+    },
+    {
+      "id": "deduplication_process",
+      "label": "Deduplication Process",
+      "type": "process",
+      "source_file": ".github/skills/job-scraper/SKILL.md",
+      "description": "Removes duplicate jobs found across multiple keyword searches by keying on job link URL, ensuring each listing appears only once in the report."
+    },
+    {
+      "id": "rate_limit_handler",
+      "label": "Rate Limit Handler",
+      "type": "component",
+      "source_file": ".github/skills/job-scraper/SKILL.md",
+      "description": "Enforces 2-second inter-page delays and a 30-second wait-and-retry on HTTP 429 responses to maintain scraper compliance with LinkedIn's rate limits."
+    },
+    {
+      "id": "batch_collation",
+      "label": "Batch Collation",
+      "type": "process",
+      "source_file": ".github/skills/job-scraper/SKILL.md",
+      "description": "Merges multiple accumulated Excel files in a user's JobSearch folder into a single deduplicated master file, archiving the originals."
+    },
+    {
+      "id": "scraper_cli",
+      "label": "Scraper CLI",
+      "type": "component",
+      "source_file": ".github/skills/job-scraper/SKILL.md",
+      "description": "Command-line interface for scrape-linkedin-jobs.py accepting --user, --keywords, --location, --date-posted, --max-results, and --output-dir arguments."
+    },
+    {
+      "id": "resume_tailor_skill",
+      "label": "Resume Tailor Skill",
+      "type": "skill",
+      "source_file": ".github/skills/resume-tailor/SKILL.md",
+      "description": "End-to-end workflow that reads a master resume and a job description, performs skill matching, generates a tailored ATS-friendly Markdown resume and .docx, and logs the application."
+    },
+    {
+      "id": "master_resume",
+      "label": "Master Resume",
+      "type": "data",
+      "source_file": ".github/skills/resume-tailor/SKILL.md",
+      "description": "Stored canonical resume (.github/Users/{Name}/{Name}_Resume.md) containing the candidate's full skill inventory, work history, and credentials; never edited by the tailor."
+    },
+    {
+      "id": "job_description",
+      "label": "Job Description",
+      "type": "data",
+      "source_file": ".github/skills/resume-tailor/SKILL.md",
+      "description": "Target job posting text providing required/preferred hard skills, soft skills, domain keywords, responsibilities, and years of experience as matching inputs."
+    },
+    {
+      "id": "skill_matching_process",
+      "label": "Skill Matching Process",
+      "type": "process",
+      "source_file": ".github/skills/resume-tailor/SKILL.md",
+      "description": "Builds a match matrix comparing JD-extracted requirements against candidate skills with match type (hard/soft/domain) and evidence location; never fabricates matches."
+    },
+    {
+      "id": "tailored_resume_md",
+      "label": "Tailored Resume (Markdown)",
+      "type": "data",
+      "source_file": ".github/skills/resume-tailor/SKILL.md",
+      "description": "JD-optimised resume saved as .github/Users/{Name}/{Name}_Resume_{Company}.md, using the standard markdown template with ATS-safe structure."
+    },
+    {
+      "id": "docx_generation",
+      "label": ".docx Generation",
+      "type": "process",
+      "source_file": ".github/skills/resume-tailor/SKILL.md",
+      "description": "Converts the tailored Markdown resume to a professionally styled .docx via md-to-docx.py, stamping the user's full name as document author metadata."
+    },
+    {
+      "id": "batch_mode",
+      "label": "Batch Mode",
+      "type": "process",
+      "source_file": ".github/skills/resume-tailor/SKILL.md",
+      "description": "Processes multiple jobs from a batch manifest in chunks of 5, collecting missing JDs from the user, tailoring each resume, generating .docx, and logging results."
+    },
+    {
+      "id": "batch_manifest",
+      "label": "Batch Manifest",
+      "type": "data",
+      "source_file": ".github/skills/resume-tailor/SKILL.md",
+      "description": "JSON file produced by batch-job-reader.py listing jobs to process with output paths, fit scores, JD source status, and folder names."
+    },
+    {
+      "id": "company_context_file",
+      "label": "Company Context File",
+      "type": "data",
+      "source_file": ".github/skills/resume-tailor/SKILL.md",
+      "description": "Per-job Markdown file under .github/Users/{Name}/companies/ storing metadata, full JD text, match report, and interview notes; never overwritten once created."
+    },
+    {
+      "id": "application_history_log",
+      "label": "Application History Log",
+      "type": "data",
+      "source_file": ".github/skills/resume-tailor/SKILL.md",
+      "description": "Append-only Excel file ({UserName}/History/applied_jobs.xlsx) recording every application with date, company, title, location, link, resume file, and fit %."
+    },
+    {
+      "id": "md_to_docx_script",
+      "label": "md-to-docx.py Script",
+      "type": "tool",
+      "source_file": ".github/skills/resume-tailor/SKILL.md",
+      "description": "Python script that converts a tailored Markdown resume to a styled .docx with navy headings, clickable hyperlinks, and author metadata stamping."
+    },
+    {
+      "id": "batch_job_reader_script",
+      "label": "batch-job-reader.py Script",
+      "type": "tool",
+      "source_file": ".github/skills/resume-tailor/SKILL.md",
+      "description": "Python script that reads the latest JobSearch Excel, filters by minimum fit %, and emits a JSON batch manifest for the resume tailor workflow."
+    },
+    {
+      "id": "log_application_script",
+      "label": "log-application.py Script",
+      "type": "tool",
+      "source_file": ".github/skills/resume-tailor/SKILL.md",
+      "description": "Python script that appends a single application row to applied_jobs.xlsx without overwriting existing history, creating the file and folder if absent."
+    },
+    {
+      "id": "resume_markdown_template",
+      "label": "Resume Markdown Template",
+      "type": "data",
+      "source_file": ".github/skills/resume-tailor/assets/template-markdown.md",
+      "description": "Canonical Markdown scaffold defining section order and placeholder syntax for generating ATS-friendly tailored resumes."
+    },
+    {
+      "id": "contact_info_block",
+      "label": "Contact Info Block",
+      "type": "component",
+      "source_file": ".github/skills/resume-tailor/assets/template-markdown.md",
+      "description": "Top-of-template section rendering full name, city/state, phone, email, and clickable LinkedIn URL as inline header elements."
+    },
+    {
+      "id": "professional_summary_section",
+      "label": "Professional Summary Section",
+      "type": "component",
+      "source_file": ".github/skills/resume-tailor/assets/template-markdown.md",
+      "description": "2-3 sentence tailored opening that incorporates top JD keywords, years of experience, core domain, and value proposition."
+    },
+    {
+      "id": "skills_section",
+      "label": "Skills Section",
+      "type": "component",
+      "source_file": ".github/skills/resume-tailor/assets/template-markdown.md",
+      "description": "Grouped skill categories (e.g. Programming Languages, Cloud & DevOps) as bold label + comma-separated values \u00e2\u20ac\u201d no tables, ATS-safe."
+    },
+    {
+      "id": "work_experience_section",
+      "label": "Work Experience Section",
+      "type": "component",
+      "source_file": ".github/skills/resume-tailor/assets/template-markdown.md",
+      "description": "Reverse-chronological role entries with title, company, date range, location, and 3-5 bullet points following the action-verb + outcome formula."
+    },
+    {
+      "id": "bullet_point_formula",
+      "label": "Bullet Point Formula",
+      "type": "concept",
+      "source_file": ".github/skills/resume-tailor/assets/template-markdown.md",
+      "description": "Structured pattern: Action Verb + What You Did + How/With What Technology + Measurable Result, applied to every work experience bullet."
+    },
+    {
+      "id": "education_section",
+      "label": "Education Section",
+      "type": "component",
+      "source_file": ".github/skills/resume-tailor/assets/template-markdown.md",
+      "description": "Lists degrees with institution name and graduation year; content preserved as-is from the master resume without modification."
+    },
+    {
+      "id": "certifications_section",
+      "label": "Certifications Section",
+      "type": "component",
+      "source_file": ".github/skills/resume-tailor/assets/template-markdown.md",
+      "description": "Lists relevant certifications with issuing organisation and year; JD-relevant certs listed first."
+    },
+    {
+      "id": "projects_section",
+      "label": "Projects Section",
+      "type": "component",
+      "source_file": ".github/skills/resume-tailor/assets/template-markdown.md",
+      "description": "Optional section for projects demonstrating JD-relevant skills; omitted if space is tight and work experience adequately covers requirements."
+    },
+    {
+      "id": "ats_guidelines",
+      "label": "ATS Guidelines",
+      "type": "concept",
+      "source_file": ".github/skills/resume-tailor/references/ats-guidelines.md",
+      "description": "Reference document specifying formatting rules, content rules, section order, and keyword strategies for maximising resume parseability by applicant tracking systems."
+    },
+    {
+      "id": "ats_formatting_rules",
+      "label": "ATS Formatting Rules",
+      "type": "concept",
+      "source_file": ".github/skills/resume-tailor/references/ats-guidelines.md",
+      "description": "Prohibits tables, columns, text boxes, images, headers/footers, and non-standard fonts; mandates consistent MMM YYYY date format and standard bullet characters."
+    },
+    {
+      "id": "ats_content_rules",
+      "label": "ATS Content Rules",
+      "type": "concept",
+      "source_file": ".github/skills/resume-tailor/references/ats-guidelines.md",
+      "description": "Requires exact JD keyword mirroring, quantified achievements, strong action verbs, no personal pronouns, and relevance-ordered sections."
+    },
+    {
+      "id": "keyword_matching_strategy",
+      "label": "Keyword Matching Strategy",
+      "type": "process",
+      "source_file": ".github/skills/resume-tailor/references/ats-guidelines.md",
+      "description": "Five-step process: extract hard skills from JD, extract soft/domain terms, map to candidate experience, place matched keywords in summary/skills/bullets, and use both acronym and full form."
+    },
+    {
+      "id": "ats_section_order",
+      "label": "ATS Section Order",
+      "type": "concept",
+      "source_file": ".github/skills/resume-tailor/references/ats-guidelines.md",
+      "description": "Recommended section sequence: Contact Info \u00e2\u2020\u2019 Professional Summary \u00e2\u2020\u2019 Skills \u00e2\u2020\u2019 Work Experience \u00e2\u2020\u2019 Projects \u00e2\u2020\u2019 Education \u00e2\u2020\u2019 Certifications for maximum ATS parse accuracy."
+    },
+    {
+      "id": "quantification_rule",
+      "label": "Quantification Rule",
+      "type": "concept",
+      "source_file": ".github/skills/resume-tailor/references/ats-guidelines.md",
+      "description": "Content guideline requiring use of numbers, percentages, and dollar amounts in achievement bullets to improve both ATS scoring and human reviewer impact."
+    },
+    {
+      "id": "ats_parser",
+      "label": "ATS Parser",
+      "type": "tool",
+      "source_file": ".github/skills/resume-tailor/references/ats-guidelines.md",
+      "description": "Automated applicant tracking system that reads resumes left-to-right and top-to-bottom, extracting keywords and structured data; incompatible with tables, graphics, and non-standard layouts."
+    }
+  ],
+  "edges": [
+    {
+      "source": "github_skills_job_scraper_scripts_scrape_linkedin_jobs_py",
+      "target": "argparse",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_job_scraper_scripts_scrape_linkedin_jobs_py",
+      "target": "re",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_job_scraper_scripts_scrape_linkedin_jobs_py",
+      "target": "sys",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_job_scraper_scripts_scrape_linkedin_jobs_py",
+      "target": "time",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_job_scraper_scripts_scrape_linkedin_jobs_py",
+      "target": "datetime",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_job_scraper_scripts_scrape_linkedin_jobs_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_job_scraper_scripts_scrape_linkedin_jobs_py",
+      "target": "scrape_linkedin_jobs_check_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_job_scraper_scripts_scrape_linkedin_jobs_py",
+      "target": "scrape_linkedin_jobs_find_repo_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_job_scraper_scripts_scrape_linkedin_jobs_py",
+      "target": "scrape_linkedin_jobs_load_career_profile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_job_scraper_scripts_scrape_linkedin_jobs_py",
+      "target": "scrape_linkedin_jobs_scrape_linkedin_jobs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_job_scraper_scripts_scrape_linkedin_jobs_py",
+      "target": "scrape_linkedin_jobs_calculate_fit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L234",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_job_scraper_scripts_scrape_linkedin_jobs_py",
+      "target": "scrape_linkedin_jobs_save_to_excel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L278",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_job_scraper_scripts_scrape_linkedin_jobs_py",
+      "target": "scrape_linkedin_jobs_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L414",
+      "weight": 1.0
+    },
+    {
+      "source": "scrape_linkedin_jobs_load_career_profile",
+      "target": "scrape_linkedin_jobs_find_repo_root",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "scrape_linkedin_jobs_save_to_excel",
+      "target": "scrape_linkedin_jobs_calculate_fit",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L322",
+      "weight": 1.0
+    },
+    {
+      "source": "scrape_linkedin_jobs_main",
+      "target": "scrape_linkedin_jobs_check_dependencies",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L433",
+      "weight": 1.0
+    },
+    {
+      "source": "scrape_linkedin_jobs_main",
+      "target": "scrape_linkedin_jobs_load_career_profile",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L436",
+      "weight": 1.0
+    },
+    {
+      "source": "scrape_linkedin_jobs_main",
+      "target": "scrape_linkedin_jobs_scrape_linkedin_jobs",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L478",
+      "weight": 1.0
+    },
+    {
+      "source": "scrape_linkedin_jobs_main",
+      "target": "scrape_linkedin_jobs_save_to_excel",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L512",
+      "weight": 1.0
+    },
+    {
+      "source": "scrape_linkedin_jobs_rationale_70",
+      "target": "scrape_linkedin_jobs_find_repo_root",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "scrape_linkedin_jobs_rationale_82",
+      "target": "scrape_linkedin_jobs_load_career_profile",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "scrape_linkedin_jobs_rationale_148",
+      "target": "scrape_linkedin_jobs_scrape_linkedin_jobs",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "scrape_linkedin_jobs_rationale_235",
+      "target": "scrape_linkedin_jobs_calculate_fit",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L235",
+      "weight": 1.0
+    },
+    {
+      "source": "scrape_linkedin_jobs_rationale_279",
+      "target": "scrape_linkedin_jobs_save_to_excel",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\job-scraper\\scripts\\scrape-linkedin-jobs.py",
+      "source_location": "L279",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "argparse",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "json",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "re",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "sys",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "datetime",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "batch_job_reader_check_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "batch_job_reader_find_repo_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "batch_job_reader_load_career_profile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "batch_job_reader_sanitize_company",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "batch_job_reader_shorten_title",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "batch_job_reader_find_latest_excel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "batch_job_reader_read_excel_jobs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "batch_job_reader_resolve_output_names",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L246",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "batch_job_reader_check_existing_resumes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L307",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "batch_job_reader_load_manifest_completed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L328",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "batch_job_reader_load_jd_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L347",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_batch_job_reader_py",
+      "target": "batch_job_reader_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L387",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_resolve_output_names",
+      "target": "batch_job_reader_sanitize_company",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L257",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_resolve_output_names",
+      "target": "batch_job_reader_shorten_title",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L258",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_main",
+      "target": "batch_job_reader_check_dependencies",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L407",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_main",
+      "target": "batch_job_reader_find_repo_root",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L409",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_main",
+      "target": "batch_job_reader_load_career_profile",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L422",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_main",
+      "target": "batch_job_reader_find_latest_excel",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L426",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_main",
+      "target": "batch_job_reader_read_excel_jobs",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L440",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_main",
+      "target": "batch_job_reader_resolve_output_names",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L453",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_main",
+      "target": "batch_job_reader_load_manifest_completed",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L459",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_main",
+      "target": "batch_job_reader_check_existing_resumes",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L464",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_main",
+      "target": "batch_job_reader_load_jd_files",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L484",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_rationale_56",
+      "target": "batch_job_reader_find_repo_root",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_rationale_68",
+      "target": "batch_job_reader_load_career_profile",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_rationale_114",
+      "target": "batch_job_reader_sanitize_company",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_rationale_128",
+      "target": "batch_job_reader_shorten_title",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_rationale_143",
+      "target": "batch_job_reader_find_latest_excel",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_rationale_151",
+      "target": "batch_job_reader_read_excel_jobs",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_rationale_247",
+      "target": "batch_job_reader_resolve_output_names",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_rationale_308",
+      "target": "batch_job_reader_check_existing_resumes",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L308",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_rationale_329",
+      "target": "batch_job_reader_load_manifest_completed",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L329",
+      "weight": 1.0
+    },
+    {
+      "source": "batch_job_reader_rationale_348",
+      "target": "batch_job_reader_load_jd_files",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\batch-job-reader.py",
+      "source_location": "L348",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_extract_resume_py",
+      "target": "sys",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\extract-resume.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_extract_resume_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\extract-resume.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_extract_resume_py",
+      "target": "extract_resume_check_dependency",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\extract-resume.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_extract_resume_py",
+      "target": "extract_resume_extract",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\extract-resume.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_extract_resume_py",
+      "target": "extract_resume_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\extract-resume.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "extract_resume_main",
+      "target": "extract_resume_check_dependency",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\extract-resume.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "extract_resume_main",
+      "target": "extract_resume_extract",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\extract-resume.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_log_application_py",
+      "target": "argparse",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_log_application_py",
+      "target": "sys",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_log_application_py",
+      "target": "datetime",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_log_application_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_log_application_py",
+      "target": "log_application_check_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_log_application_py",
+      "target": "log_application_create_workbook",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_log_application_py",
+      "target": "log_application_append_row",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_log_application_py",
+      "target": "log_application_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "log_application_main",
+      "target": "log_application_check_dependencies",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "log_application_main",
+      "target": "log_application_create_workbook",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "log_application_main",
+      "target": "log_application_append_row",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "log_application_rationale_49",
+      "target": "log_application_create_workbook",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "log_application_rationale_85",
+      "target": "log_application_append_row",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\log-application.py",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_md_to_docx_py",
+      "target": "re",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_md_to_docx_py",
+      "target": "sys",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_md_to_docx_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_md_to_docx_py",
+      "target": "md_to_docx_check_dependency",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_md_to_docx_py",
+      "target": "md_to_docx_strip_markdown_inline",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_md_to_docx_py",
+      "target": "md_to_docx_extract_links",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_md_to_docx_py",
+      "target": "md_to_docx_extract_bold_pairs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_md_to_docx_py",
+      "target": "md_to_docx_add_hyperlink",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_md_to_docx_py",
+      "target": "md_to_docx_detect_author_from_md",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_md_to_docx_py",
+      "target": "md_to_docx_build_docx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "github_skills_resume_tailor_scripts_md_to_docx_py",
+      "target": "md_to_docx_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L396",
+      "weight": 1.0
+    },
+    {
+      "source": "md_to_docx_extract_bold_pairs",
+      "target": "md_to_docx_strip_markdown_inline",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "md_to_docx_build_docx",
+      "target": "md_to_docx_detect_author_from_md",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L384",
+      "weight": 1.0
+    },
+    {
+      "source": "md_to_docx_main",
+      "target": "md_to_docx_check_dependency",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L409",
+      "weight": 1.0
+    },
+    {
+      "source": "md_to_docx_main",
+      "target": "md_to_docx_build_docx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L410",
+      "weight": 1.0
+    },
+    {
+      "source": "md_to_docx_rationale_30",
+      "target": "md_to_docx_strip_markdown_inline",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "md_to_docx_rationale_38",
+      "target": "md_to_docx_extract_links",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "md_to_docx_rationale_43",
+      "target": "md_to_docx_extract_bold_pairs",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "md_to_docx_rationale_55",
+      "target": "md_to_docx_add_hyperlink",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "md_to_docx_rationale_100",
+      "target": "md_to_docx_detect_author_from_md",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".github\\skills\\resume-tailor\\scripts\\md-to-docx.py",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "career_profile",
+      "target": "target_roles",
+      "relation": "contains",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "career_profile",
+      "target": "job_scraper_skill",
+      "relation": "configures parameters for",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "scraper_cli",
+      "target": "linkedin_guest_api",
+      "relation": "queries",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "linkedin_guest_api",
+      "target": "job_listing",
+      "relation": "returns",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "job_scraper_skill",
+      "target": "deduplication_process",
+      "relation": "applies",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "deduplication_process",
+      "target": "job_listing",
+      "relation": "removes duplicate",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "rate_limit_handler",
+      "target": "linkedin_guest_api",
+      "relation": "guards requests to",
+      "evidence_type": "EXTRACTED",
+      "confidence": 0.95
+    },
+    {
+      "source": "target_roles",
+      "target": "fit_rating_calculator",
+      "relation": "provides basis for",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "fit_rating_calculator",
+      "target": "job_listing",
+      "relation": "scores",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "job_listing",
+      "target": "excel_report",
+      "relation": "stored in",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "fit_rating_calculator",
+      "target": "excel_report",
+      "relation": "enriches with fit score",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "batch_collation",
+      "target": "excel_report",
+      "relation": "merges into master",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "excel_report",
+      "target": "batch_job_reader_script",
+      "relation": "read by",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "batch_job_reader_script",
+      "target": "batch_manifest",
+      "relation": "generates",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "batch_manifest",
+      "target": "batch_mode",
+      "relation": "drives",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "resume_tailor_skill",
+      "target": "master_resume",
+      "relation": "reads from",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "resume_tailor_skill",
+      "target": "job_description",
+      "relation": "accepts as input",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "master_resume",
+      "target": "skill_matching_process",
+      "relation": "supplies candidate skills to",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "job_description",
+      "target": "skill_matching_process",
+      "relation": "supplies JD requirements to",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "skill_matching_process",
+      "target": "tailored_resume_md",
+      "relation": "produces",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "tailored_resume_md",
+      "target": "docx_generation",
+      "relation": "input to",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "md_to_docx_script",
+      "target": "docx_generation",
+      "relation": "implements",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "docx_generation",
+      "target": "log_application_script",
+      "relation": "triggers",
+      "evidence_type": "EXTRACTED",
+      "confidence": 0.9
+    },
+    {
+      "source": "log_application_script",
+      "target": "application_history_log",
+      "relation": "appends to",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "batch_mode",
+      "target": "company_context_file",
+      "relation": "creates",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "company_context_file",
+      "target": "job_description",
+      "relation": "archives full text of",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "resume_markdown_template",
+      "target": "tailored_resume_md",
+      "relation": "structures output of",
+      "evidence_type": "INFERRED",
+      "confidence": 0.95
+    },
+    {
+      "source": "resume_markdown_template",
+      "target": "professional_summary_section",
+      "relation": "contains",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "resume_markdown_template",
+      "target": "skills_section",
+      "relation": "contains",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "resume_markdown_template",
+      "target": "work_experience_section",
+      "relation": "contains",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "resume_markdown_template",
+      "target": "education_section",
+      "relation": "contains",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "resume_markdown_template",
+      "target": "certifications_section",
+      "relation": "contains",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "resume_markdown_template",
+      "target": "projects_section",
+      "relation": "contains",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "resume_markdown_template",
+      "target": "contact_info_block",
+      "relation": "contains",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "work_experience_section",
+      "target": "bullet_point_formula",
+      "relation": "applies",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "ats_guidelines",
+      "target": "ats_formatting_rules",
+      "relation": "specifies",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "ats_guidelines",
+      "target": "ats_content_rules",
+      "relation": "specifies",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "ats_guidelines",
+      "target": "keyword_matching_strategy",
+      "relation": "defines",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "ats_guidelines",
+      "target": "ats_section_order",
+      "relation": "recommends",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "ats_content_rules",
+      "target": "quantification_rule",
+      "relation": "includes",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "ats_parser",
+      "target": "ats_formatting_rules",
+      "relation": "motivates",
+      "evidence_type": "EXTRACTED",
+      "confidence": 1.0
+    },
+    {
+      "source": "ats_guidelines",
+      "target": "resume_tailor_skill",
+      "relation": "constrains formatting in",
+      "evidence_type": "INFERRED",
+      "confidence": 0.95
+    },
+    {
+      "source": "ats_formatting_rules",
+      "target": "resume_markdown_template",
+      "relation": "governs structure of",
+      "evidence_type": "INFERRED",
+      "confidence": 0.9
+    },
+    {
+      "source": "keyword_matching_strategy",
+      "target": "skill_matching_process",
+      "relation": "is implemented by",
+      "evidence_type": "INFERRED",
+      "confidence": 0.85
+    },
+    {
+      "source": "ats_section_order",
+      "target": "resume_markdown_template",
+      "relation": "defines section sequence of",
+      "evidence_type": "INFERRED",
+      "confidence": 0.9
+    },
+    {
+      "source": "bullet_point_formula",
+      "target": "quantification_rule",
+      "relation": "incorporates",
+      "evidence_type": "INFERRED",
+      "confidence": 0.85
+    },
+    {
+      "source": "excel_report",
+      "target": "batch_mode",
+      "relation": "feeds job listings into",
+      "evidence_type": "INFERRED",
+      "confidence": 0.9
+    },
+    {
+      "source": "career_profile",
+      "target": "resume_tailor_skill",
+      "relation": "provides contact details to",
+      "evidence_type": "INFERRED",
+      "confidence": 0.88
+    },
+    {
+      "source": "job_scraper_skill",
+      "target": "resume_tailor_skill",
+      "relation": "supplies job listings consumed by",
+      "evidence_type": "INFERRED",
+      "confidence": 0.9
+    },
+    {
+      "source": "professional_summary_section",
+      "target": "keyword_matching_strategy",
+      "relation": "is a placement target for",
+      "evidence_type": "INFERRED",
+      "confidence": 0.8
+    },
+    {
+      "source": "skills_section",
+      "target": "keyword_matching_strategy",
+      "relation": "is a placement target for",
+      "evidence_type": "INFERRED",
+      "confidence": 0.8
+    }
+  ],
+  "meta": {
+    "total_nodes": 101,
+    "total_edges": 154,
+    "extracted_edges": 40,
+    "inferred_edges": 11,
+    "corpus": ".github/skills",
+    "generated": "2026-04-13"
+  }
+}
